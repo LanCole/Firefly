@@ -2,6 +2,9 @@
 
 本目录包含 Firefly 主题的所有配置文件，采用模块化设计，每个文件负责特定的功能模块。
 
+网站配置教程：https://docs-firefly.cuteleaf.cn/zh/guide/site.html
+网站编写文章：https://docs-firefly.cuteleaf.cn/zh/guide/writing.html
+
 ## 📁 配置文件结构
 
 ```
