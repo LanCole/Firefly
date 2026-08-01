@@ -29,7 +29,7 @@ const showTitle = widgetConfig?.showTitle !== false;
   <div>
     <!-- 公告栏内容 -->
     <div class="text-neutral-600 dark:text-neutral-300 leading-relaxed mb-3">
-      {config.content}
+      <span set:html={config.content} />
     </div>
 
     <!-- 可选链接和关闭按钮 -->
