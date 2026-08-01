@@ -61,9 +61,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 追番
 			LinkPresets.Anime,
-
-			// 番组计划
-			LinkPresets.Bangumi,
 		],
 	});
 
