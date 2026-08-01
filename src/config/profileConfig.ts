@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/kapibala.jpg",
 
 	// 名字
-	name: "Firefly",
+	name: "Baolan",
 
 	// 个人签名
-	bio: "Hello, I'm Firefly.",
+	bio: "A Developer's Journal on AI, Code, and Continuous Growth",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
