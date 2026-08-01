@@ -24,14 +24,14 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/CuteLeaf",
-			showName: false,
+			url: "https://github.com/LanCole",
+			showName: true,
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
-			showName: false,
+			url: "mailto:baolanchen2@gmail.com",
+			showName: true,
 		},
 	],
 };
