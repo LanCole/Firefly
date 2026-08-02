@@ -20,18 +20,38 @@ export const profileConfig: ProfileConfig = {
 	// 如果想使用尚未包含相应的图标集，则需要安装它
 	// `pnpm add @iconify-json/<icon-set-name>`
 	// showName: true 时显示图标和名称，false 时只显示图标
+	// fa7-brands:bilibili
+	// fa7-brands:weixin
+	
 	links: [
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/LanCole",
 			showName: true,
+			// showName: false,
+
 		},
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
 			url: "mailto:baolanchen2@gmail.com",
 			showName: true,
+			// showName: false,
+
 		},
+		// {
+		// 	name: "Google Scholar",
+		// 	icon: "fa7-brands:google-scholar",
+		// 	url: "https://scholar.google.com/citations?user=tjr9UucAAAAJ",
+		// 	showName: false,
+		// },
+		// {
+		// 	name: "Homepage",
+		// 	icon: "fa7-regular:user-circle",
+		// 	url: "https://lancole.github.io",
+		// 	showName: false,
+		// },
+		
 	],
 };

@@ -54,22 +54,22 @@ export const siteConfig: SiteConfig = {
 	// 如果启用了OpenGraph图片功能，数组中需要包含png格式的favicon图标
 	favicon: [
 		{
-			src: "/favicon/favicon.ico",
+			src: "/favicon/favicon_io/favicon.ico",
 		},
 		{
-			src: "/favicon/favicon-16x16.png",
+			src: "/favicon/favicon_io/favicon-16x16.png",
 			sizes: "16x16",
 		},
 		{
-			src: "/favicon/favicon-32x32.png",
+			src: "/favicon/favicon_io/favicon-32x32.png",
 			sizes: "32x32",
 		},
 		{
-			src: "/favicon/android-chrome-192x192.png",
+			src: "/favicon/favicon_io/android-chrome-192x192.png",
 			sizes: "192x192",
 		},
 		{
-			src: "/favicon/android-chrome-512x512.png",
+			src: "/favicon/favicon_io/android-chrome-512x512.png",
 			sizes: "512x512",
 		},
 	],
@@ -87,8 +87,8 @@ export const siteConfig: SiteConfig = {
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
 		logo: {
 			type: "image",
-			value: "assets/images/logo/panda.png",
-			valueDark: "assets/images/logo/panda.png",
+			value: "assets/images/logo/kapibala_cute.png",
+			valueDark: "assets/images/logo/kapibala_cute.png",
 			alt: "🐼",
 		},
 		// 导航栏标题
