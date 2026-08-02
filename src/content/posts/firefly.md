@@ -44,4 +44,12 @@ slug: firefly
 
 ## 📖 配置说明
 
-> 📚 **详细配置文档**: 查看 [Firefly 使用文档](https://docs-firefly.cuteleaf.cn/) 获取完整的配置指南
+> **详细配置文档**: 查看 [Firefly 使用文档](https://docs-firefly.cuteleaf.cn/) 获取完整的配置指南
+
+## 📚 参考致谢
+
+感谢olinl博客的帮助，在创建本博客中参考学习了很多~
+
+**参考博客： [https://blog.olinl.com/posts/firefly-first/](https://blog.olinl.com/posts/firefly-first/)**
+
+
