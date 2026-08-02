@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Baolan",
 
 	// 个人签名
-	bio: "A Developer's Journal on AI, Code, and Continuous Growth",
+	bio: "A Developer's Journal on AI, Math, and Continuous Growth",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -22,6 +22,7 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	// fa7-brands:bilibili
 	// fa7-brands:weixin
+	// fa7-brands:zhihu
 	
 	links: [
 		{
