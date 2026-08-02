@@ -2,7 +2,7 @@
 title: Firefly Wiki Link 内部链接示例
 published: 2026-08-01
 description: 在 Firefly 文章中使用 Obsidian 风格的 Wiki Link 内部链接，并自动生成文章链接卡片。
-image: ""
+image: ./images/blog_link.avif
 tags: [Markdown, Obsidian, Wiki-Link, 文章示例]
 category: 博客指南
 slug: guide/firefly-wiki-link
