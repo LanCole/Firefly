@@ -21,14 +21,14 @@
       <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; max-width: 220px; height: auto; object-fit: contain; display: block;">
     </div>
     <!-- 竖分隔线 -->
-    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 4px 10px;"></div>
+    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 0 10px;"></div>
     <!-- 右图 -->
     <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
       <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 210px; height: auto; object-fit: contain; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
-  <hr style="border: 0; border-top: 1px solid #ddd; margin: 8px 0;">
+  <hr style="border: 0; border-top: 1px solid #ddd; margin: 2px 0;">
   <!-- 标注文本：强制占满整行，与图片区域对齐 -->
   <figcaption style="text-align: center; margin-top: 0; font-size: 14px; color: #555; width: 100%; display: block;">
     关于研究领域，机器学习、数学、数据与模型的logo示意图
