@@ -3,36 +3,27 @@
 你好！我是 **Baolan(宝岚)** ，热爱数学与数据科学领域，在这片数字空间中，我将记录我的学习与思考过程，希望可以在世界知识的迷雾中布设岗哨。
 
 ## 🏠 关于博客
+这个博客主要记录我在数学、数据科学、人工智能以及计算机编程方面的学习和思考。
 
-本博客中会记录数学、数据科学、AI与计算机代码相关的技术内容。如果说数学是这里思考的“底层操作系统”，那么数据科学便是将理论连接现实的“桥梁”。我希望使用数学的语言拆解看似复杂的数据现象——无论是流形学习中的降维直觉，还是矩阵运算背后的几何意义，都试图在公式与直觉间架起通路。
+在这里，数学是理解问题的一种基础语言。无论是流形学习中的降维思想，还是矩阵运算背后的几何含义，我都希望能够从公式出发，结合直观理解，探索理论与实际之间的联系。
 
-而人工智能（尤其是自然语言处理领域）则是当下的“主战场”。
-从Transformer的进化、MoE架构的门控之争，到模型数据的Scaling Law，我会记录自己对这些前沿技术的深度思考与实验复盘，同时这里更偏爱那些值得反复推敲的原理。
+数据科学则是连接理论与现实的一座桥梁。通过数据分析和建模，我们可以观察、理解并解释现实世界中的各种现象。我会记录一些关于算法、模型以及数据背后规律的探索过程。
 
-代码则是所有思想的“最终落地”——无论是对复杂算法的PyTorch实现，还是对计算效率的极致追求，我都会毫无保留地分享可复现的代码片段与工程踩坑实录。
+人工智能，尤其是自然语言处理领域，是目前关注较多的方向。从 Transformer 架构的发展，到 MoE 模型中的各种设计选择，再到模型规模与能力之间的关系，我会分享自己的学习笔记、实验记录和一些思考。相比追逐热点，我更关注那些值得深入理解的基础原理。
 
-总之，这个博客既是我个人的学习笔记，也希望能成为同好者交流的驿站。如果你也痴迷于那些“钻牛角尖”的科学问题，欢迎常来坐坐，我们一起看看，科学的果壳里究竟藏着怎样的宇宙。
+代码是这些想法最终落地的方式。无论是算法的实现、模型的复现，还是工程优化中的实践经验，我都会尽量分享完整的代码示例和过程中遇到的问题，希望这些内容能够帮助自己不断积累，也方便后来回顾。
 
-<figure style="border: 1px solid #ccc; padding: 8px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 520px;">
-  <!-- 图片并排容器 -->
-  <div style="display: flex; align-items: center; gap: 0; width: 100%;">
-    <!-- 左图 -->
-    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; max-width: 220px; height: auto; object-fit: contain; display: block;">
+这个博客既是个人学习过程中的记录，也希望能成为一个交流和分享的平台。如果你也对数学、AI 和计算机技术感兴趣，欢迎一起交流，在不断探索中发现更多有趣的问题。
+<figure class="image-comparison">
+  <div class="image-comparison__images">
+    <div class="image-comparison__item">
+      <img src="/images/blog_ml_logo_design.jpg" alt="机器学习主题 Logo" loading="lazy">
     </div>
-    <!-- 竖分隔线 -->
-    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 0 10px;"></div>
-    <!-- 右图 -->
-    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 210px; height: auto; object-fit: contain; display: block;">
+    <div class="image-comparison__item">
+      <img src="/images/blog_mdm_logo_design.png" alt="数学、数据与模型主题 Logo" loading="lazy">
     </div>
   </div>
-  <!-- 下方的水平分隔线 -->
-  <hr style="border: 0; border-top: 1px solid #ddd; margin: 2px 0;">
-  <!-- 标注文本：强制占满整行，与图片区域对齐 -->
-  <figcaption style="text-align: center; margin-top: 0; font-size: 14px; color: #555; width: 100%; display: block;">
-    关于研究领域，机器学习、数学、数据与模型的logo示意图
-  </figcaption>
+  <figcaption>关于研究领域：机器学习、数学、数据与模型的 Logo 示意图</figcaption>
 </figure>
 
 ## 🛠️ 关于网站
@@ -60,4 +51,3 @@
 ---
 
 *感谢你的来访！希望在这里能找到对你有用的内容！*
-
