@@ -18,13 +18,13 @@
   <div style="display: flex; align-items: stretch; gap: 10px; width: 100%;">
     <!-- 左图：固定高度，并裁剪填充 -->
     <div style="flex: 1; height: 200px; overflow: hidden; border-radius: 2px;">
-      <img src="./images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; height: 100%; object-fit: cover; display: block;">
     </div>
     <!-- 竖分隔线 -->
     <div style="width: 1px; background: #ddd; flex-shrink: 0;"></div>
     <!-- 右图：同样固定高度 -->
     <div style="flex: 1; height: 200px; overflow: hidden; border-radius: 2px;">
-      <img src="./images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; height: 100%; object-fit: cover; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
