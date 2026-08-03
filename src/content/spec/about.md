@@ -24,7 +24,7 @@
     <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 4px 10px;"></div>
     <!-- 右图 -->
     <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 220px; height: auto; object-fit: contain; display: block;">
+      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 200px; height: auto; object-fit: contain; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
