@@ -15,23 +15,23 @@
 
 <figure style="border: 1px solid #ccc; padding: 10px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 800px;">
   <!-- 图片并排容器 -->
-  <div style="display: flex; align-items: center; gap: 10px; width: 100%;">
-    <!-- 左图：完整展现，居中显示 -->
-    <div style="flex: 1; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 2px;">
-      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+  <div style="display: flex; align-items: center; gap: 0; width: 100%;">
+    <!-- 左图：撑满容器 -->
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; height: auto; object-fit: contain; display: block;">
     </div>
     <!-- 竖分隔线 -->
-    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch;"></div>
-    <!-- 右图：完整展现，居中显示 -->
-    <div style="flex: 1; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 2px;">
-      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
+    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 0 8px;"></div>
+    <!-- 右图：撑满容器 -->
+    <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; height: auto; object-fit: contain; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
   <hr style="border: 0; border-top: 1px solid #ddd; margin: 8px 0;">
   <!-- 标注文本：强制占满整行，与图片区域对齐 -->
   <figcaption style="text-align: center; margin-top: 0; font-size: 14px; color: #555; width: 100%; display: block;">
-    关于机器学习、数学、数据与模型研究领域的logo示意图
+    关于研究领域，机器学习、数学、数据与模型的logo示意图
   </figcaption>
 </figure>
 
