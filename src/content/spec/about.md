@@ -1,19 +1,19 @@
 # 关于我 / About Me
 
-你好！我是 **Baolan(宝岚)** ，热爱数学与数据科学领域，在这片数字空间中，我将记录我的学习与思考过程。
+你好！我是 **Baolan(宝岚)** ，热爱数学与数据科学领域，在这片数字空间中，我将记录我的学习与思考过程，希望可以在世界知识的迷雾中布设岗哨。
 
 ## 🏠 关于博客
 
 本博客中会记录数学、数据科学、AI与计算机代码相关的技术内容。如果说数学是这里思考的“底层操作系统”，那么数据科学便是将理论连接现实的“桥梁”。我希望使用数学的语言拆解看似复杂的数据现象——无论是流形学习中的降维直觉，还是矩阵运算背后的几何意义，都试图在公式与直觉间架起通路。
 
 而人工智能（尤其是自然语言处理领域）则是当下的“主战场”。
-从Transformer的进化、MoE架构的门控之争，到优化算法中的Scaling Law，我会记录自己对这些前沿技术的深度思考与实验复盘，同时这里更偏爱那些值得反复推敲的原理。
+从Transformer的进化、MoE架构的门控之争，到模型数据的Scaling Law，我会记录自己对这些前沿技术的深度思考与实验复盘，同时这里更偏爱那些值得反复推敲的原理。
 
 代码则是所有思想的“最终落地”——无论是对复杂算法的PyTorch实现，还是对计算效率的极致追求，我都会毫无保留地分享可复现的代码片段与工程踩坑实录。
 
 总之，这个博客既是我个人的学习笔记，也希望能成为同好者交流的驿站。如果你也痴迷于那些“钻牛角尖”的科学问题，欢迎常来坐坐，我们一起看看，科学的果壳里究竟藏着怎样的宇宙。
 
-<figure style="border: 1px solid #ccc; padding: 12px 16px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 520px;">
+<figure style="border: 1px solid #ccc; padding: 8px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 520px;">
   <!-- 图片并排容器 -->
   <div style="display: flex; align-items: center; gap: 0; width: 100%;">
     <!-- 左图 -->
@@ -24,7 +24,7 @@
     <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 4px 10px;"></div>
     <!-- 右图 -->
     <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 200px; height: auto; object-fit: contain; display: block;">
+      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 210px; height: auto; object-fit: contain; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
@@ -37,7 +37,7 @@
 
 ## 🛠️ 关于网站
 
-本博客网站网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+本博客网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
 **Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，
 专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让开发者能够轻松打造出专业且美观的个人博客网站。
