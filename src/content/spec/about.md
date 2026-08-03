@@ -13,18 +13,18 @@
 
 总之，这个博客既是我个人的学习笔记，也希望能成为同好者交流的驿站。如果你也痴迷于那些“钻牛角尖”的科学问题，欢迎常来坐坐，我们一起看看，科学的果壳里究竟藏着怎样的宇宙。
 
-<figure style="border: 1px solid #ccc; padding: 10px; display: inline-block; border-radius: 4px; background: #fafafa; text-align: center;">
+<figure style="border: 1px solid #ccc; padding: 10px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 800px;">
   <!-- 图片并排容器 -->
-  <div style="display: flex; align-items: stretch; gap: 10px; width: 100%;">
-    <!-- 左图：固定高度，并裁剪填充 -->
-    <div style="flex: 1; height: 200px; overflow: hidden; border-radius: 2px;">
-      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <div style="display: flex; align-items: center; gap: 10px; width: 100%;">
+    <!-- 左图：完整展现，居中显示 -->
+    <div style="flex: 1; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 2px;">
+      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
     </div>
     <!-- 竖分隔线 -->
-    <div style="width: 1px; background: #ddd; flex-shrink: 0;"></div>
-    <!-- 右图：同样固定高度 -->
-    <div style="flex: 1; height: 200px; overflow: hidden; border-radius: 2px;">
-      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch;"></div>
+    <!-- 右图：完整展现，居中显示 -->
+    <div style="flex: 1; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 2px;">
+      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="max-width: 100%; max-height: 100%; object-fit: contain; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
