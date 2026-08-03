@@ -6,6 +6,8 @@ dist/
 
 # dependencies
 node_modules/
+.pnpm-store/
+.env
 
 # logs
 npm-debug.log*
