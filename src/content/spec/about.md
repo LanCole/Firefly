@@ -13,18 +13,18 @@
 
 总之，这个博客既是我个人的学习笔记，也希望能成为同好者交流的驿站。如果你也痴迷于那些“钻牛角尖”的科学问题，欢迎常来坐坐，我们一起看看，科学的果壳里究竟藏着怎样的宇宙。
 
-<figure style="border: 1px solid #ccc; padding: 10px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 800px;">
+<figure style="border: 1px solid #ccc; padding: 12px 16px; display: block; margin: 0 auto; border-radius: 4px; background: #fafafa; text-align: center; max-width: 520px;">
   <!-- 图片并排容器 -->
   <div style="display: flex; align-items: center; gap: 0; width: 100%;">
-    <!-- 左图：撑满容器 -->
+    <!-- 左图 -->
     <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; height: auto; object-fit: contain; display: block;">
+      <img src="/images/blog_ml_logo_design.jpg" alt="左侧图片" style="width: 100%; max-width: 220px; height: auto; object-fit: contain; display: block;">
     </div>
     <!-- 竖分隔线 -->
-    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 0 8px;"></div>
-    <!-- 右图：撑满容器 -->
+    <div style="width: 1px; background: #ddd; flex-shrink: 0; align-self: stretch; margin: 4px 10px;"></div>
+    <!-- 右图 -->
     <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; height: auto; object-fit: contain; display: block;">
+      <img src="/images/blog_mdm_logo_design.png" alt="右侧图片" style="width: 100%; max-width: 220px; height: auto; object-fit: contain; display: block;">
     </div>
   </div>
   <!-- 下方的水平分隔线 -->
