@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
 	title: "Baolan Learns",
 
 	// 站点副标题
-	subtitle: "",
+	subtitle: "知行之间",
 
 	// 站点 URL
 	site_url: "https://baolan.space",
