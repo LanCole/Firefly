@@ -19,9 +19,26 @@ const config = {
 ---
 
 <div id="tcomment"></div>
-<script is:inline src={jsUrl}></script>
 {cssUrl && <link rel="stylesheet" href={cssUrl.startsWith("http") ? cssUrl : url(cssUrl)} />}
-<script is:inline define:vars={{ config }}>
+<script is:inline define:vars={{ config, jsUrl }}>
+  let twikooLoadPromise;
+
+  function loadTwikoo() {
+    if (window.twikoo) return Promise.resolve(window.twikoo);
+    if (twikooLoadPromise) return twikooLoadPromise;
+
+    twikooLoadPromise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = jsUrl;
+      script.async = true;
+      script.onload = () => resolve(window.twikoo);
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+
+    return twikooLoadPromise;
+  }
+
   // 获取当前页面路径
   function getCurrentPath() {
     const requestedPath = new URLSearchParams(window.location.search).get("path");
@@ -42,8 +59,9 @@ const config = {
   }
 
   // 初始化 Twikoo
-  function initTwikoo() {
-    if (typeof twikoo !== "undefined") {
+  async function initTwikoo() {
+    try {
+      await loadTwikoo();
       const commentEl = document.getElementById("tcomment");
       if (commentEl) {
         commentEl.innerHTML = "";
@@ -60,14 +78,24 @@ const config = {
             console.error("[Twikoo] 初始化失败:", error);
           });
       }
-    } else {
-      // 如果 Twikoo 未加载，稍后重试
-      setTimeout(initTwikoo, 500);
+    } catch (error) {
+      console.error("[Twikoo] 加载失败:", error);
     }
   }
 
-  // 页面加载时初始化
-  document.addEventListener("DOMContentLoaded", initTwikoo);
+  // 评论区进入视口后再加载第三方脚本，避免阻塞首屏。
+  const commentRoot = document.getElementById("post-comments") || document.getElementById("tcomment");
+  if (commentRoot && "IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        observer.disconnect();
+        initTwikoo();
+      }
+    }, { rootMargin: "300px" });
+    observer.observe(commentRoot);
+  } else {
+    initTwikoo();
+  }
 
   // Swup 页面切换后重新初始化
   if (window.swup && window.swup.hooks) {

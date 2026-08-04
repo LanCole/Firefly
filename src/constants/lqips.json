@@ -33,5 +33,22 @@
   "src:content/posts/images/1.avif": "b5b0b3bcb6bbe0e0df",
   "src:content/posts/guide/cover.avif": "c8bca9dde6d2babfb5",
   "src:assets/images/logo/firefly-light.png": "000000000000000000",
-  "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff"
+  "src:assets/images/logo/firefly-dark.png": "ffffffffffffffffff",
+  "public:images/blog_ml_logo_design.avif": "2482cb2582cb2883cc",
+  "public:images/blog_mdm_logo_design.avif": "1a314f19314f1a314f",
+  "src:assets/images/tou_xiang.jpg": "d2c0b8cdb9b1b7b2bd",
+  "src:assets/images/kapibala.jpg": "b4a69ec3b5a8af947c",
+  "src:content/posts/images/blog_video.png": "d5dbe5c1d4f1adc0de",
+  "src:content/posts/images/blog_math_formula.avif": "dee0efdee3f8c9cff2",
+  "src:content/posts/images/blog_link.avif": "dde3f2d9e7fae3f0fb",
+  "src:content/posts/images/blog_firefly_use.png": "f1e0e2faeeecf0e2e5",
+  "src:content/posts/images/blog_firefly_title.png": "dae5e8e3ecebd9e5de",
+  "src:content/posts/images/blog_firefly_sys.png": "dce1f0dee3f1e2e9ee",
+  "src:content/posts/images/blog_firefly_plantuml.png": "d9dce4e1e8f3e4e7ee",
+  "src:content/spec/images/blog_ml_logo_design.jpg": "2382cb2482cb2884cc",
+  "src:content/spec/images/blog_mdm_logo_design.png": "1a314f19314f1a314f",
+  "src:assets/images/MobileWallpaper/landscape_mobile.avif": "72738aa79ba5444a58",
+  "src:assets/images/logo/panda.png": "ababababacaba4a4a4",
+  "src:assets/images/logo/kapibala_cute.png": "8c7a658e765ca18669",
+  "src:assets/images/DesktopWallpaper/landscape_desktop.avif": "72738aa79ba5444a58"
 }

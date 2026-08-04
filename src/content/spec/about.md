@@ -25,10 +25,10 @@
 <figure class="image-comparison">
   <div class="image-comparison__images">
     <div class="image-comparison__item">
-      <img src="/images/blog_ml_logo_design.jpg" alt="机器学习主题 Logo" loading="lazy">
+      <img src="/images/blog_ml_logo_design.avif" alt="机器学习主题 Logo" loading="lazy">
     </div>
     <div class="image-comparison__item">
-      <img src="/images/blog_mdm_logo_design.png" alt="数学、数据与模型主题 Logo" loading="lazy">
+      <img src="/images/blog_mdm_logo_design.avif" alt="数学、数据与模型主题 Logo" loading="lazy">
     </div>
   </div>
   <figcaption>关于研究领域：机器学习、数学、数据与模型的 Logo 示意图</figcaption>
